@@ -1,120 +1,277 @@
-# React + Vite + shadcn/ui Starter Template
+# 🌍 EcoKogi Smart Waste Intelligence Platform
 
-A modern React starter template built with Vite, TypeScript, Tailwind CSS, and shadcn/ui components.
-
-## 🚀 Features
-
-- ⚡️ **Vite** - Fast build tool and development server
-- ⚛️ **React 18** - Latest React with hooks support
-- 🎯 **TypeScript** - Type safety and better developer experience
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- 🧩 **shadcn/ui** - Beautifully designed components built with Radix UI
-- 📦 **Path Mapping** - Clean imports with `@/` prefix
-
-## 📦 Included shadcn/ui Components
-
-- Button
-- Card
-- Input
-- Label
-- Badge
-- Dialog
-- And more...
-
-## 🛠️ Getting Started
-
-1. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-2. **Start development server**
-
-   ```bash
-   npm run dev
-   ```
-
-3. **Build for production**
-
-   ```bash
-   npm run build
-   ```
-
-4. **Preview production build**
-   ```bash
-   npm run preview
-   ```
-
-## 📁 Project Structure
-
-```
-src/
-├── components/
-│   └── ui/              # shadcn/ui components
-├── lib/
-│   └── utils.ts         # Utility functions
-├── App.tsx              # Main application component
-├── index.css            # Global styles with Tailwind
-└── main.tsx             # Application entry point
-```
-
-## 🎨 Customization
-
-### Adding New shadcn/ui Components
-
-This template is pre-configured with shadcn/ui. You can add more components by creating them in the `src/components/ui/` directory.
-
-### Tailwind Configuration
-
-The Tailwind configuration is set up with shadcn/ui color variables. You can customize colors and other design tokens in:
-
-- `tailwind.config.js` - Tailwind configuration
-- `src/index.css` - CSS custom properties for themes
-
-### TypeScript Configuration
-
-Path mapping is configured for clean imports:
-
-```typescript
-import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-```
-
-## 🌗 Dark Mode
-
-The template includes dark mode support through Tailwind's `dark:` classes and CSS custom properties.
-
-## 📚 Learn More
-
-- [Vite Documentation](https://vitejs.dev/)
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [shadcn/ui](https://ui.shadcn.com/)
-- [Radix UI](https://www.radix-ui.com/)
-
-## 🤝 Contributing
-
-Feel free to submit issues and enhancement requests!
-
-**⚡ Powered by [Dala](https://dala.gebeya.com)** - The AI-powered web development platform that helps you build full-stack applications faster.
+An AI-powered Smart Waste Intelligence Platform developed to improve waste management, environmental sustainability, and data-driven decision-making across Kogi State, Nigeria.
 
 ---
 
-## 🤖 What is Dala?
+## Project Overview
 
-**[Gebeya Dala](https://dala.gebeya.com)** is an intelligent web development platform that accelerates your React development workflow. Build, preview, and deploy web applications, and instant development environments.
+EcoKogi is a modern smart waste management platform designed to connect citizens, recyclers, environmental officers, and government agencies through a centralized digital system.
 
-🔗 **Try Dala:** [dala.gebeya.com](https://dala.gebeya.com)
+The platform enables users to report waste incidents, monitor waste collection activities, visualize environmental data, generate intelligent insights using Artificial Intelligence, and support evidence-based policy decisions through interactive Power BI dashboards.
 
-### Why Use Dala?
-
-- **AI-Powered Development** - Get intelligent code suggestions and automated component generation
-- **Instant Preview** - See your changes live in real-time sandbox environments
-- **Zero Setup** - No local environment configuration needed
-- **Collaborative** - Build and share projects with your team
-- **Deployment Ready** - One-click deployment to production
+This project was developed as a capstone project under the 3MTT Nigeria Programme.
 
 ---
 
-Built with ❤️ by the Dala team to help developers build faster and smarter.
+## Objectives
+
+- Improve environmental sanitation.
+- Enable digital waste reporting.
+- Promote recycling initiatives.
+- Support government monitoring.
+- Provide AI-powered assistance.
+- Deliver real-time waste analytics.
+- Encourage citizen participation.
+
+---
+
+## Key Features
+
+### Dashboard
+
+- Waste statistics
+- Environmental KPIs
+- Collection trends
+- Recycling insights
+
+### Smart Waste Map
+
+- GPS incident mapping
+- Waste hotspot visualization
+- Location intelligence
+
+### Incident Reporting
+
+- Citizen reporting portal
+- Image upload
+- Report tracking
+- Status updates
+
+### Fleet Management
+
+- Waste truck monitoring
+- Collection scheduling
+- Route optimization
+
+### Analytics
+
+- Power BI dashboards
+- Waste generation trends
+- Recycling performance
+- Government reports
+
+### AI Assistant
+
+- Intelligent chatbot
+- Environmental guidance
+- Waste disposal recommendations
+- User support
+
+### Officer Portal
+
+- Incident management
+- Verification tools
+- Monitoring dashboard
+
+### Authentication
+
+- Secure login
+- Role-based access
+- User management
+
+---
+
+## Technology Stack
+
+Frontend
+
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+
+Backend
+
+- Supabase
+- PostgreSQL
+- Authentication
+- Storage
+
+Analytics
+
+- Microsoft Power BI
+
+Version Control
+
+- Git
+- GitHub
+
+Deployment
+
+- Vercel
+---
+
+## Project Structure
+
+```
+EcoKogi-Smart-Waste-Intelligence-Platform
+│
+├── src
+│   ├── components
+│   ├── pages
+│   ├── hooks
+│   ├── lib
+│   ├── assets
+│   ├── styles
+│   └── App.tsx
+│
+├── public
+├── supabase
+│   ├── migrations
+│   └── functions
+│
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/mosesiemmanuel90-cell/EcoKogi-Smart-Waste-Intelligence-Platform.git
+```
+
+Navigate into the project
+
+```bash
+cd EcoKogi-Smart-Waste-Intelligence-Platform
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+---
+
+## Modules
+
+- Dashboard
+- Smart Waste Map
+- Incident Reporting
+- Fleet Management
+- Officer Portal
+- Analytics
+- AI Assistant
+- Power BI Reports
+- Authentication
+- Settings
+- Notification Centre
+
+---
+
+## Power BI Integration
+
+The platform integrates with Microsoft Power BI to provide:
+
+- Waste generation analysis
+- Collection efficiency
+- Recycling performance
+- Environmental KPIs
+- Executive dashboards
+- Decision support reports
+
+---
+
+## Future Roadmap
+
+- Android Application
+- iOS Application
+- SMS Notification System
+- Offline Reporting
+- IoT Smart Bin Integration
+- Drone Monitoring
+- AI Waste Prediction
+- Carbon Emission Tracking
+- Blockchain Recycling Rewards
+- Open Data API
+
+---
+
+## Project Status
+
+Current Version
+
+**Version 1.0**
+
+Status
+
+**Actively Developed**
+
+Repository
+
+**Production Ready**
+
+---
+
+## Author
+
+**Emmanuel Moses Ikojo**
+
+Agricultural and Bioresources Engineer
+
+Data Analyst
+
+AI & Environmental Technology Enthusiast
+
+Federal University of Technology, Minna
+
+Nigeria
+
+GitHub:
+
+https://github.com/mosesiemmanuel90-cell
+
+---
+
+## Acknowledgements
+
+Special appreciation to:
+
+- 3MTT Nigeria
+- Federal Ministry of Communications, Innovation & Digital Economy
+- Dala AI
+- Supabase
+- Vercel
+- Microsoft Power BI
+- React Community
+- Vite Team
+- Open Source Community
+
+---
+
+## License
+
+This project is released for educational and research purposes.
+
+© 2026 Emmanuel Moses Ikojo. All Rights Reserved.
