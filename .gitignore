@@ -1,0 +1,6 @@
+node_modules
+dist
+build-error.ts
+build-error.txt
+.env
+.env.local
